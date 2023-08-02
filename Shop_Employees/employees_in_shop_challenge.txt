@@ -1,0 +1,19 @@
+Situation:
+
+A client, a retailing company with over 600 shops nationwide, faces the challenge that the number of customers visiting their shops varies strongly each day. Therefore, the client has too many or not enough employees in a shop to serve their customers. This results in inactive employees and dissatisfied customers. To minimize costs and to increase customer satisfaction the client would like to know each day how many customers will visit their shops on the next day. 
+
+The customer provides two datasets.
+●	“shops.csv”:
+○	shop: ID of the shops
+○	date: Date of the observation
+○	weather: Weather conditions during each day
+○	temperature: Temperature near the shop during each day in degree Celsius
+○	customers: Number of customers that visited the shop during each day
+●	“shops_meta.csv”:
+○	shop: ID of the shops
+○	city: ID of the cities
+○	residents_area: Residents living near each shop
+○	crime_rate_area: Crime rate near each shop
+
+Task:
+Find a way to predict how many customers will visit a shop. Keep in mind that your solution should be later brought into production on a daily basis. 
